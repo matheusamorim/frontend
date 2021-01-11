@@ -1,30 +1,27 @@
 import './styles.css'
-import {ReactComponent as MainImage}   from './main.svg'
-function Home() {
+import { ReactComponent as YoutubeIcon} from './youtube.svg';
+import { ReactComponent as LinkedinIcon} from './linkedin.svg';
+import { ReactComponent as InstagramIcon} from './instagram.svg';
 
-    return (
-        <div className="home-container">
-            <div className="home-content">
-                <div className="home-action">
-                    <h1 className="home-title">
-                        Faça de pedido <br /> Que entregamos <br /> para você!!!
-                    </h1>
-                    <h3 className="home-subtitle">
-                        Escolha o seu pedido em poucos minutos <br />
-                        levaremos até você.
-                    </h3>
-                    <a  href="orders" className="home-btn-order">
-                        Fazer Pedido
-                    </a>
-                </div>
-                <div className="home-image">
-                    <MainImage/>
 
-                </div>
-            </div>
+function  Footer(){
+
+    return( 
+      <footer className="main-footer">
+        App desenvolvido durante a 2ª ed. do evento Semana DevSuperior
+        <div className="footer-icons">
+            <a href="www.google.com" target="_new"> 
+            <YoutubeIcon/>
+            </a>
+            <a href="www.google.com" target="_new"> </a>
+            <LinkedinIcon/>
+            <a href="www.google.com" target="_new"> </a>
+            <InstagramIcon/>
         </div>
+      </footer>
+      
     )
-
+    
 }
 
-export default Home;
+export default Footer;

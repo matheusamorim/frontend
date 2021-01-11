@@ -1,5 +1,6 @@
 import './styles.css'
 import {ReactComponent as MainImage}   from './main.svg'
+import Footer from '../footer';
 function Home() {
 
     return (
@@ -21,6 +22,7 @@ function Home() {
                     <MainImage/>
 
                 </div>
+                <Footer/>
             </div>
         </div>
     )
