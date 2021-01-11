@@ -22,9 +22,11 @@ function Home() {
                     <MainImage/>
 
                 </div>
-                <Footer/>
+
             </div>
+           
         </div>
+        
     )
 
 }
