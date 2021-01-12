@@ -1,11 +1,11 @@
+import StepsHeaders from './StepsHeaders'
 import './styles.css'
-import {ReactComponent as Logo} from './logo.svg';
 
 function  Orders(){
 
     return( 
-     <div>
-         <h1>Orders</h1>
+     <div className="orders-container">
+        <StepsHeaders />
      </div>
     )
     
